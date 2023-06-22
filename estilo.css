@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+
+.fundo{
+    width: 100%;
+    height: 1250px;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.quadradobranco{
+    width: 450px;
+    height: 600px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.titulo{
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    display: flex;
+    font-weight: bold;
+}
+.textoinfo{
+    color: black;
+    font-size: 22px;
+    font-family: 'Times New Roman';
+    margin: 20px;
+}
+.cabecalho{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textocabecalho{
+    color: white;
+    font-size: 60px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
